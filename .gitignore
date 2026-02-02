@@ -6,7 +6,8 @@ secrets.json
 *.pem
 *.key
 
-# Workspace - only track job.md and logs/*.jsonl
+# Workspace - your scratch space (not committed)
+# Only job.md and session logs are tracked
 workspace/*
 !workspace/job.md
 !workspace/logs
