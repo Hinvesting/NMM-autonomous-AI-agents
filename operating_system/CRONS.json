@@ -12,5 +12,12 @@
     "type": "command",
     "command": "echo \"pong!\"",
     "enabled": true
+  },
+  {
+    "name": "daily-market-data",
+    "schedule": "0 13 * * *",
+    "type": "command",
+    "command": "node /job/scripts/fetch-market-data.js",
+    "enabled": true
   }
 ]
