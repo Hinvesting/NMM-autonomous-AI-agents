@@ -1,0 +1,1 @@
+enable the heartbeat cron to run every 10 minutes
